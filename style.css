@@ -1,0 +1,24 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #0D0D0D;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #00E599, #00B2FF);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card-bg {
+    background-color: #1A1A1A;
+    border: 1px solid #2a2a2a;
+}
+
+.card-bg:hover {
+    border-color: #00E599;
+}
+
+.glow-button {
+    box-shadow: 0 0 15px rgba(0, 229, 153, 0.4);
+}
